@@ -148,6 +148,7 @@ a{
   margin-bottom: 80px;
   color: #ffffff;
   display: none;
+  font-size: 20px;
 }
 /*-------------- footer start here --------------*/
 footer{
@@ -247,12 +248,45 @@ nav {
     font-size: 25px;
   }
   /*--------- footer responsive -------------*/
+  footer{
+    padding-top: 20px;
+  }
   nav{
     display: flex;
     flex-direction: column;
   }
   .nav-link{
     margin-top: 10px;
+  }
+}
+@media only screen and (min-width:577px) and (max-width:991px){
+  /*------ blog section responsive ----------*/
+  .blog-page{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0;
+  }
+  .blog-page-buttons{
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin: 30px 0;
+    background-color: #fff;
+  }
+  .page-btn{
+    width: 150px;
+    border:  1px solid  #2A69D6;
+  }
+  .blogs{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+  }
+  .view-all-btn{
+    display: block;
+  }
+  /*--------- footer responsive -------------*/
+  footer{
+    padding-top: 20px;
   }
 }
 
