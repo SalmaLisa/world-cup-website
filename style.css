@@ -13,8 +13,9 @@ a{
   display: inline-block;
 }
 .container{
-  width: 80%;
+  width: 83%;
   margin: 0 auto;
+  overflow: hidden;
 }
 /*-------------------- header-section start here -------------------*/
 .header-content{
@@ -44,7 +45,7 @@ a{
 .button{
   display: flex;
   align-items: center;
-  background-color: #fa0404ea;
+  background-color: #2A69D6;
   color: #FFFFFF;
   width: 28%;
   padding: 10px;
@@ -63,3 +64,110 @@ a{
   margin-top: 35px;
   margin-bottom: -7px;
 }
+/*------------ blog section start here -----------*/
+.blog-page{
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  column-gap: 12px;
+  margin: 50px auto;
+}
+.blog-page-buttons{
+  height: 280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #161616;
+  border-radius: 15px;
+}
+.blog-page-buttons .page-btn{
+  font-size: 17px;
+  color: #161616;
+  padding: 15px 10px;
+  background-color: #fff;
+  width: 77%;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.blog-page-buttons .colored-button{
+  background-color: #2A69D6;
+}
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 12px;
+}
+.blog-img{
+  text-align: center;
+}
+.blog-img img{
+  width: 94%;
+}
+.blog-details{
+  margin-left: 20px;
+}
+.blog-button{
+  color: #161616;
+  font-weight: 500;
+  padding: 3px 15px;
+  border: 1px solid ;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.blog-description{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.other-about-blog{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.other-about-blog p{
+  margin-right: 40px;
+  color: #161616b3;
+}
+.other-about-blog .fa-regular{
+  margin-right: 5px;
+}
+/*-------------- footer start here --------------*/
+footer{
+  background-color:#161616 ;
+  padding: 70px 0;
+}
+#footer-title{
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  color: #2A69D6;
+}
+footer hr{
+  border: none;
+  border-bottom:  1px solid  #2A69D6;
+  width: 80%;
+}
+nav {
+  width: 58%;
+  margin: 30px auto 0;
+  text-align: center;
+}
+.nav-link{
+  padding-right: 18px;
+  color:#2A69D6 ;#B9B9B9
+  font-weight: 500;
+  font-size: 15px;
+}
+.nav-link:hover,.social-link .fa-brands:hover{
+  color:#B9B9B9;
+}
+.social-link{
+  margin-top: 30px;
+}
+.social-link .fa-brands{
+  color: #2A69D6;
+  font-size: 20px;
+  padding: 0 5px;
+}
+
