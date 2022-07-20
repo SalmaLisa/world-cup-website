@@ -24,10 +24,12 @@ a{
   background-color: #161616;
   border-radius: 30px;
   margin: 40px 0;
+  position: relative;
 }
 .header-info{
   width: 45%;
   margin-left: 7vw ;
+  z-index: 334;
 }
 .header-title{
   font-size: 4vw;
@@ -59,11 +61,23 @@ a{
 }
 .header-image{
   width: 50%;
+  z-index: 334;
 }
 .header-image img{
   width:90%;
   margin-top: 35px;
   margin-bottom: -7px;
+}
+/*---- header-animation ----*/
+.overlay{
+  height: 100%;
+  width: 100%;
+  background-image: url(images/animation-image.jpg);
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: header-animation 6s ease-in-out infinite ;
 }
 /*------------ blog section start here -----------*/
 .blog-page{
@@ -188,6 +202,27 @@ nav {
   font-size: 20px;
   padding: 0 5px;
 }
+/*--------------------- animation -----------------*/
+@keyframes header-animation {
+  0%{
+    background-image: url(images/animation-image-2.jpg);
+  }
+  25%{
+    background-image: url(images/animation-image.jpg);
+  }
+  50%{
+    background-image: url(images/animation-image-2.jpg);
+  }
+  75%{
+    background-image: url(images/animation-image.jpg);
+  }
+  100%{
+    background-image: url(images/animation-image-2.jpg);
+  }
+
+  
+}
+
 /*--------------------------------- 
           media quieries 
 -----------------------------------*/
