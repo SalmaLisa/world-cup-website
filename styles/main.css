@@ -1,0 +1,32 @@
+.blog{
+  padding:20px ;
+}
+.blog-image{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.blog-image img{
+  width: 95%;
+}
+.blog-image h3{
+  margin: auto 8px;
+  font-size: 15px;
+  color: #161616;
+}
+.blog-info{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.blog-title{
+  font-weight: 600;
+  font-size: 18px;
+  color:#161616;
+  margin: 0;
+}
+.match-time{
+  color: #4D4D4D;
+  margin:6px 0;
+  font-size: 14px;
+}

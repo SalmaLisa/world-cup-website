@@ -72,22 +72,23 @@ a{
 .overlay{
   height: 100%;
   width: 100%;
+  border-radius: 30px;
   background-image: url(images/animation-image.jpg);
   opacity: .5;
   position: absolute;
   top: 0;
   right: 0;
-  animation: header-animation 6s ease-in-out infinite ;
+  animation: header-animation 5s ease-in-out infinite ;
 }
 /*------------ blog section start here -----------*/
 .blog-page{
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 260px 1fr;
   column-gap: 15px;
   margin: 50px auto;
 }
 .blog-page-buttons{
-  height: 280px;
+  height: 260px;
   width: 100%;
   display: flex;
   flex-direction: column;
