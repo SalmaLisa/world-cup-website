@@ -222,14 +222,13 @@ nav {
   }
   100%{
     background-image: url(images/animation-image-2.jpg);
-  }
-
-  
+  } 
 }
 
 /*--------------------------------- 
           media quieries 
 -----------------------------------*/
+
 @media only screen and (max-width:576px) {
   /*---- header-responsive ------*/
   .header-content{
@@ -301,7 +300,7 @@ nav {
     margin-top: 10px;
   }
 }
-@media only screen and (min-width:577px) and (max-width:991px){
+@media only screen and (min-width:577px) and (max-width:991px){ 
   /*------ blog section responsive ----------*/
   .blog-page{
     display: grid;
