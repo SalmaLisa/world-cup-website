@@ -44,6 +44,9 @@ a{
   color: #FFFFFF;
   font-size: 1vw;
 }
+.header-description br{
+  display: none;
+}
 .button{
   display: flex;
   align-items: center;
@@ -251,6 +254,9 @@ nav {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .header-description br{
+    display: inline;
   }
   .button{
     width: 120px;
